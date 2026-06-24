@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "serverofpros.play.hosting",
+    "ip": "",
     "port": 25565,
     "version": "1.21.11"
   },
