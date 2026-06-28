@@ -417,13 +417,6 @@ function createBot() {
           bot.chat('/gamerule sendCommandFeedback false');
         }
       }, 3000);
-
-      // Attempt creative mode (only works if bot has OP)
-      setTimeout(() => {
-      }, 3000);
-
-      bot.on('messagestr', (message) => {
-        }
       });
     });
 
