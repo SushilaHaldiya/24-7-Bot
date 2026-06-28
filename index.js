@@ -418,7 +418,16 @@ function createBot() {
         }
       }, 3000);
 
-      
+      // Attempt creative mode (only works if bot has OP)
+      setTimeout(() => {
+      }, 3000);
+
+      bot.on('messagestr', (message) => {
+        }
+      });
+    });
+
+    
 
     // Handle disconnection
     bot.on('end', (reason) => {
